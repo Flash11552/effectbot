@@ -42,7 +42,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/prashantsahlot/frozenvcmusic/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/Flash11552/effectbot/blob/master/sample.env)
 ---
 
 ### 🔧 Quick Setup
