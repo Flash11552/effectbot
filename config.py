@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Flash11552/effectmusic",
+    "https://github.com/frozenoffical/frozenvcmusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/leg_end010")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/effectbots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/vibeshiftbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Frozensupport1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -89,21 +89,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
+    "START_IMG_URL", "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
+    "PING_IMG_URL", "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-STATS_IMG_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-STREAM_IMG_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+STATS_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+STREAM_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
 
 
 def time_to_seconds(time):
