@@ -1,0 +1,11 @@
+# Navigate to your project directory
+cd /path/to/your/project
+
+# Stage the new files
+git add railway.json package.json
+
+# Commit the changes
+git commit -m "Add files for Railway deployment"
+
+# Push the changes to GitHub
+git push origin main
